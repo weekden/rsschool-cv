@@ -1,11 +1,11 @@
 # Denis Nedelko
 
 ##  Contacts   
-- Phone:+375(29) 529-73-31
-- Email:gmdenisnedelko@gmail.com
-- Telegram:[@denisnedelko](https://t.me/denisnedelko)
-- GitHub:[weekden](https://github.com/weekden)
-- CodePen:[@denisnedelko](https://codepen.io/Denis-Nedelko)
+- __Phone:__    +375(29) 529-73-31
+- __Email:__    gmdenisnedelko@gmail.com
+- __Telegram:__ [@denisnedelko](https://t.me/denisnedelko)
+- __GitHub:__   [weekden](https://github.com/weekden)
+- __CodePen:__  [@denisnedelko](https://codepen.io/Denis-Nedelko)
 
 ## About Me
 I am 35 years old. I love setting new goals and achieving them. I really want to follow the learning path to the very end. I am confident that the knowledge gained will help me in the future.
@@ -52,9 +52,9 @@ function HashStorage() {
 ```
 
 ## Education
-- Brest State Technical University
+- __Brest State Technical University__
     + Faculty of Electronics and Information systems
-- IT-Academy
+- __IT-Academy (courses)__
     + Front-end development (stage#1)
     + Front-end development (stage#2)
 
