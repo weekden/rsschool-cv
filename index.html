@@ -18,10 +18,10 @@
         <main class="cv">
             <header>
                 <nav>
-                    <ul class="header-links">
+                    <ul class="links-list">
                         <li><a class="header-link" href="#about-me">About Me</a></li>
-                        <li><a class="header-link" href="">Skils</a></li>
-                        <li><a class="header-link" href="">Code Example</a></li>
+                        <li><a class="header-link" href="#skils">Skils</a></li>
+                        <li><a class="header-link" href="#code">Code Example</a></li>
                         <li><a class="header-link" href="">Projects</a></li>
                         <li><a class="header-link" href="">Education</a></li>
                         <li><a class="header-link" href="">Languages</a></li>
@@ -32,7 +32,7 @@
                 <section id="main-part">
                     <div class="main-part__left">
                         <div class="wrapper-photo">
-                            <img src="src/img/cv-photo.jpg" alt="person-photo-for-cv" width="200" height="250" />
+                            <img src="src/img/cv-photo.jpg" alt="person-photo-for-cv" />
                         </div>
                     </div>
                     <div class="main-part__right">
@@ -62,7 +62,62 @@
                         </div>
                     </div>
                 </section>
-    
+                <section id="about-me">
+                    <h2 class="title-h2">About Me:</h2>
+                    <p class="cv-text">
+                        I am 35 years old. I love setting new goals and achieving them. I really want to follow the learning path to the very end. I am
+                        confident that the knowledge gained will help me in the future.
+                    </p>
+                </section>
+                <div class="wrapper">
+                    <section id="skils">
+                        <h2 class="title-h2">Skils:</h2>
+                        <ul class="skils-list">
+                            <li>HTML</li>
+                            <li>CSS/SCSS</li>
+                            <li>Java Script</li>
+                            <li>Git/GitHub</li>
+                            <li>OOP</li>
+                            <li>Bootstrap</li>
+                            <li>Firebase</li>
+                        </ul>
+                    </section>
+                    <section id="code">
+                        <h2 class="title-h2">Code Example:</h2>
+                        <code>
+                            function HashStorage() {<br />
+                            this.storage = {};<br />
+                            <br />
+                            this.addValue = function (key, value) {<br />
+                            this.storage[key] = value;<br />
+                            };<br />
+                            <br />
+                            this.getValue = function (key) {<br />
+                            if (this.storage[key]) {<br />
+                            return this.storage[key];<br />
+                            }<br />
+                            return;<br />
+                            };<br />
+                            <br />
+                            this.deleteValue = function (key) {<br />
+                            if (this.storage[key] !== undefined) {<br />
+                            delete this.storage[key];<br />
+                            return true;<br />
+                            }<br />
+                            return false;<br />
+                            };<br />
+                            <br />
+                            this.getKeys = function () {<br />
+                            const arrayKeys = [];<br />
+                            for (key in this.storage) {<br />
+                            arrayKeys.push(key);<br />
+                            }<br />
+                            return arrayKeys;<br />
+                            };<br />
+                            };<br />
+                        </code>
+                    </section>
+                </div>
             </main>
             <footer></footer>
         </main>
