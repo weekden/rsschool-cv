@@ -6,8 +6,6 @@
         <title>CV Denis Nedelko</title>
         <link rel="stylesheet" href="style.css" />
         <style>
-            @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap");
-            @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400&display=swap");
             @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&display=swap");
             @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@600&display=swap");
             @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&display=swap");
@@ -22,20 +20,20 @@
                         <li><a class="header-link" href="#about-me">About Me</a></li>
                         <li><a class="header-link" href="#skils">Skils</a></li>
                         <li><a class="header-link" href="#code">Code Example</a></li>
-                        <li><a class="header-link" href="">Projects</a></li>
-                        <li><a class="header-link" href="">Education</a></li>
-                        <li><a class="header-link" href="">Languages</a></li>
+                        <li><a class="header-link" href="#education">Education</a></li>
+                        <li><a class="header-link" href="#projects">Projects</a></li>
+                        <li><a class="header-link" href="#languages">Languages</a></li>
                     </ul>
                 </nav>
             </header>
             <main class="content">
                 <section id="main-part">
-                    <div class="main-part__left">
+                    <div class="main-part__left section-width">
                         <div class="wrapper-photo">
                             <img src="src/img/cv-photo.jpg" alt="person-photo-for-cv" />
                         </div>
                     </div>
-                    <div class="main-part__right">
+                    <div class="main-part__right section-width">
                         <h1>Denis Nedelko</h1>
                         <h2 class="title-h2">Contacts:</h2>
                         <div class="contacts-box">
@@ -70,7 +68,7 @@
                     </p>
                 </section>
                 <div class="wrapper">
-                    <section id="skils">
+                    <section id="skils" class="section-width">
                         <h2 class="title-h2">Skils:</h2>
                         <ul class="skils-list">
                             <li>HTML</li>
@@ -82,7 +80,7 @@
                             <li>Firebase</li>
                         </ul>
                     </section>
-                    <section id="code">
+                    <section id="code" class="section-width">
                         <h2 class="title-h2">Code Example:</h2>
                         <code>
                             function HashStorage() {<br />
@@ -118,8 +116,72 @@
                         </code>
                     </section>
                 </div>
+                <section id="education">
+                    <h2 class="title-h2">Education:</h2>
+                    <div class="wrapper">
+                        <div class="section-width">
+                            <h3 class="title-h3">Universitets</h3>
+                            <ul class="skils-list">
+                                <li class="state-name">
+                                    Brest State Technical University
+                                    <ul>
+                                        <li>Faculty of Electronics and Information systems</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="section-width">
+                            <h3 class="title-h3">Courses</h3>
+                            <ul class="skils-list">
+                                <li class="state-name">
+                                    IT Academy
+                                    <ul>
+                                        <li>Web Application Development With JavaScript</li>
+                                        <li>Web Application Development With JavaScript (advanced)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <div class="wrapper">
+                    <section id="projects" class="section-width">
+                        <h2 class="title-h2">Projects:</h2>
+                        <ul class="skils-list other-list">
+                            <li>
+                                <a class="project-link" href="https://weekden.github.io/camper/">Camper</a>
+                            </li>
+                            <li>
+                                <a class="project-link" href="https://weekden.github.io/truckload/">Truck-loader</a>
+                            </li>
+                            <li>
+                                <a class="project-link" href="https://codepen.io/Denis-Nedelko/pens/public">Other tasks (codepen)</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section id="languages" class="section-width">
+                        <h2 class="title-h2">Languages:</h2>
+                        <ul class="skils-list other-list">
+                            <li>Russian (naitive)</li>
+                            <li>English (A1+)</li>
+                            <li>Polish (A1)</li>
+                        </ul>
+                    </section>
+                </div>
             </main>
-            <footer></footer>
+            <footer>
+                <div class="icon-wrapper">
+                    <a class="contact-link" href="https://github.com/weekden">
+                        <i class="contact-icon fa-brands fa-github fa-2xl"></i>
+                    </a>
+                </div>
+                <span>2024</span>
+                <div class="icon-wrapper">
+                    <a class="contact-link" href="https://github.com/weekden">
+                        <i class="contact-icon fa-brands fa-github fa-2xl"></i>
+                    </a>
+                </div>
+            </footer>
         </main>
     </body>
 </html>
