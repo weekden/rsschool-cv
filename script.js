@@ -20,4 +20,3 @@ window.addEventListener("resize", () => {
         burgerMenu.classList.remove("show");
     }
 });
-

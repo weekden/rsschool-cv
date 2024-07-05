@@ -18,7 +18,7 @@ body {
 .cv {
     width: 80%;
     border: 3px solid #ecebeb;
-   box-shadow: 0 0 3px 3px gray;
+    box-shadow: 0 0 3px 3px gray;
     margin: 2rem auto;
     background-image: url(src/img/backround.jpg);
 }
@@ -294,7 +294,6 @@ footer {
         width: 80%;
     }
 
-    
     #main-part,
     .wrapper {
         display: block;

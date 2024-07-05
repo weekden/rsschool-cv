@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CV Denis Nedelko</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css">
         <style>
             @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&display=swap");
             @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@600&display=swap");
@@ -13,7 +13,7 @@
         <script src="https://kit.fontawesome.com/a509a621f7.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <main class="cv">
+        <div class="cv">
             <header>
                 <nav>
                     <ul class="links-list">
@@ -35,7 +35,7 @@
                 <section id="main-part">
                     <div class="main-part__left header__section-width">
                         <div class="wrapper-photo">
-                            <img src="src/img/cv-photo.jpg" alt="person-photo-for-cv"/>
+                            <img src="src/img/cv-photo.jpg" alt="person-photo-for-cv">
                         </div>
                     </div>
                     <div class="main-part__right header__section-width">
@@ -68,9 +68,8 @@
                 <section id="about-me">
                     <h2 class="title-h2">About Me:</h2>
                     <p class="cv-text">
-                        I am 35 years old. I love setting new goals and achieving them. I really want to follow the learning path to the very end. I am
-                        confident that the knowledge gained will help me in the future.
-                        <blockquote class="cv-text">| So why not start right now...</blockquote>
+                        I am 35 years old. I love setting new goals and achieving them. I really want to follow the learning path to the very end. I am confident that the knowledge gained will help me in the future.
+                        <br><q>So why not start right now...</q>
                     </p>
                 </section>
                 <div class="wrapper">
@@ -89,36 +88,36 @@
                     <section id="code" class="section-width">
                         <h2 class="title-h2">Code Example:</h2>
                         <code>
-                            function HashStorage() {<br />
-                            this.storage = {};<br />
-                            <br />
-                            this.addValue = function (key, value) {<br />
-                            this.storage[key] = value;<br />
-                            };<br />
-                            <br />
-                            this.getValue = function (key) {<br />
-                            if (this.storage[key]) {<br />
-                            return this.storage[key];<br />
-                            }<br />
-                            return;<br />
-                            };<br />
-                            <br />
-                            this.deleteValue = function (key) {<br />
-                            if (this.storage[key] !== undefined) {<br />
-                            delete this.storage[key];<br />
-                            return true;<br />
-                            }<br />
-                            return false;<br />
-                            };<br />
-                            <br />
-                            this.getKeys = function () {<br />
-                            const arrayKeys = [];<br />
-                            for (key in this.storage) {<br />
-                            arrayKeys.push(key);<br />
-                            }<br />
-                            return arrayKeys;<br />
-                            };<br />
-                            };<br />
+                            function HashStorage() {<br>
+                            this.storage = {};<br>
+                            <br>
+                            this.addValue = function (key, value) {<br>
+                            this.storage[key] = value;<br>
+                            };<br>
+                            <br>
+                            this.getValue = function (key) {<br>
+                            if (this.storage[key]) {<br>
+                            return this.storage[key];<br>
+                            }<br>
+                            return;<br>
+                            };<br>
+                            <br>
+                            this.deleteValue = function (key) {<br>
+                            if (this.storage[key] !== undefined) {<br>
+                            delete this.storage[key];<br>
+                            return true;<br>
+                            }<br>
+                            return false;<br>
+                            };<br>
+                            <br>
+                            this.getKeys = function () {<br>
+                            const arrayKeys = [];<br>
+                            for (key in this.storage) {<br>
+                            arrayKeys.push(key);<br>
+                            }<br>
+                            return arrayKeys;<br>
+                            };<br>
+                            };<br>
                         </code>
                     </section>
                 </div>
@@ -276,7 +275,9 @@
                     </svg>
                 </a>
             </footer>
-        </main>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
+
+
