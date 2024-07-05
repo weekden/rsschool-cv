@@ -288,10 +288,10 @@ footer {
     }
 
     .wrapper-photo {
-        height: 300px;
+        height: auto;
         margin: auto;
         margin-top: 80px;
-        width: 70%;
+        max-width: 70%;
     }
 
     #main-part,
