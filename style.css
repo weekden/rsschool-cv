@@ -26,6 +26,10 @@ body {
 .content {
     padding: 5% 10%;
     background-color: #fafae4cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 header {
@@ -37,6 +41,7 @@ header {
 
 section {
     margin-top: 5%;
+    width: 100%;
 }
 
 .section-width {
@@ -68,6 +73,8 @@ section {
 #main-part {
     display: flex;
     justify-content: space-between;
+    max-width: 100rem;
+    width: 100%;
 }
 
 .wrapper-photo {
@@ -136,6 +143,7 @@ h1 {
 .wrapper {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .skils-list {
